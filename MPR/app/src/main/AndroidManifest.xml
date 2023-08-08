@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MPR"
+        tools:targetApi="31">
+        <activity
+            android:name=".tutorials.tut10.Tut10"
+            android:exported="true"
+            android:label="My Teams">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut9.Tut9"
+            android:exported="true"
+            android:label="My Bookmarks">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut8.Tut8"
+            android:exported="true"
+            android:label="Hello User">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lectures.lec3.Lec3_1"
+            android:exported="true"
+            android:label="Audio Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lectures.lec3.Lec3_2"
+            android:exported="true"
+            android:label="ImageView Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lectures.lec3.Lec3_3"
+            android:exported="true"
+            android:label="MediaPlayer Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lectures.lec3.Lec3_4"
+            android:exported="true"
+            android:label="LifeCycle Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lectures.lec3.Lec3_5"
+            android:exported="true"
+            android:label="VideoView Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut7.Tut7_edit"
+            android:exported="false"
+            android:label="My Notes" />
+        <activity
+            android:name=".tutorials.tut7.Tut7_add"
+            android:exported="false"
+            android:label="My Notes" />
+        <activity
+            android:name=".tutorials.tut7.Tut7_main"
+            android:exported="true"
+            android:label="My Notes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut6.Tut6"
+            android:exported="true"
+            android:label="Language Preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut5_db.Tut5_edit"
+            android:exported="false"
+            android:label="My Friends" />
+        <activity
+            android:name=".tutorials.tut5_db.Tut5_add"
+            android:exported="false"
+            android:label="My Friends" />
+        <activity
+            android:name=".tutorials.tut5_db.Tut5_main"
+            android:exported="true"
+            android:label="My Friends">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut5.Tut5_edit"
+            android:exported="false"
+            android:label="My Friends" />
+        <activity
+            android:name=".tutorials.tut5.Tut5_add"
+            android:exported="false"
+            android:label="My Friends" />
+        <activity
+            android:name=".tutorials.tut5.Tut5_main"
+            android:exported="true"
+            android:label="My Friends">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut4.Tut4_2"
+            android:exported="false"
+            android:label="My Tube" />
+        <activity
+            android:name=".tutorials.tut4.Tut4_1"
+            android:exported="true"
+            android:label="My Tube">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut3.Tut3"
+            android:exported="true"
+            android:label="My Admin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut2.Tut2_1"
+            android:exported="true"
+            android:label="Toast Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut2.Tut2_2"
+            android:exported="true"
+            android:label="Text Field Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut2.Tut2_3"
+            android:exported="true"
+            android:label="Currency Converter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorials.tut1.Tut1"
+            android:exported="true"
+            android:label="Twitter Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

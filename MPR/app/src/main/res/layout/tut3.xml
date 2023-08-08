@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorials.tut3.Tut3">
+
+    <Button
+        android:id="@+id/clap"
+        android:layout_width="67dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03A9F4"
+        android:includeFontPadding="false"
+        android:padding="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/clap"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kiss"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#E91E63"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="@string/kiss"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/revert" />
+
+    <Button
+        android:id="@+id/revert"
+        android:layout_width="89dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#673AB7"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="@string/revert"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blink" />
+
+    <Button
+        android:id="@+id/bounce"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#CDDC39"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/bounce"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/kiss" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="230dp"
+        android:layout_height="236dp"
+        android:contentDescription="@string/ball"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="252dp"
+        android:layout_height="248dp"
+        android:contentDescription="@string/star"
+        android:src="@drawable/star"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/kiss_popup"
+        android:layout_width="309dp"
+        android:layout_height="261dp"
+        android:contentDescription="@string/kiss_popup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748"
+        app:srcCompat="@drawable/kiss" />
+
+    <ImageView
+        android:id="@+id/star_circle"
+        android:layout_width="61dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#E6E5E5"
+        android:contentDescription="@string/star_circle"
+        android:src="@drawable/star_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ball_circle"
+        android:layout_width="61dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="#EAE8E8"
+        android:contentDescription="@string/ball_circle"
+        android:src="@drawable/ball_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star_circle" />
+
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF9800"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="@string/spin"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clap" />
+
+    <Button
+        android:id="@+id/turn_around"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="@string/turn_around"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spin" />
+
+    <Button
+        android:id="@+id/jump"
+        android:layout_width="86dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3F51B5"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/jump"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/turn_around" />
+
+    <Button
+        android:id="@+id/blink"
+        android:layout_width="69dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#FFC107"
+        android:includeFontPadding="false"
+        android:padding="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/blink"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/clap"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
